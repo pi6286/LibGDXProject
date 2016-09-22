@@ -6,7 +6,7 @@ import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 
-public class MyGdxGame extends ApplicationAdapter //this means its working
+public class MyGdxGame extends ApplicationAdapter
 {
     private SpriteBatch batch;
     private Texture img;
