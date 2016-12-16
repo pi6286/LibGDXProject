@@ -9,7 +9,7 @@ public class DesktopLauncher
     public static void main(String[] arg)
     {
         LwjglApplicationConfiguration config = new LwjglApplicationConfiguration();
-        config.title = "Test";
+        config.title = MyGdxGame.TITLE + " v" + MyGdxGame.VERSION;
         config.useGL30 = true;
         config.width = 1280;
         config.height = 720;
